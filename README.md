@@ -11,6 +11,6 @@
 
 | Miroslav Markov |  Backend Developer  | 🟨 9A |
 
-| Iliyan Stanchev| Backend Developer | 🟦 9A |
+| Iliyan Stanchev| Backend Developer | 🟦 9G |
 
-| Milan Nedelchev | Backend Developer  | 🟦 9A |
+| Milan Nedelchev | Backend Developer  | 🟦 9G |
