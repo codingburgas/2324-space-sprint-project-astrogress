@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/7i_7W-n2)
 <h1 align="center">AstroGress</h1>
 <p align="center">
-<img src="Assets/AstroGress-logo" width="500px">
+<img src="AstroGress/Assets/AstroGress-logo.png"width="500px>
 </p>
 
 
