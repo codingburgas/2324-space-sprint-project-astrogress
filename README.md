@@ -8,7 +8,7 @@
 
 ## 📋 Description
 
-
+This is out console game about physics and astronomy.Try it now!
 
 ## 🚀 Technologies Used
 
