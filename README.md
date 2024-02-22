@@ -8,7 +8,7 @@
 
 ## 📋 Description
 
-This is out console game about physics and astronomy.Try it now!
+This is our console game about physics and astronomy. Try it now!
 
 ## 🚀 Technologies Used
 
@@ -20,6 +20,7 @@ This is out console game about physics and astronomy.Try it now!
 
 <p align="left">
   <a href="https://visualstudio.microsoft.com/"><img src="https://img.icons8.com/fluency/48/000000/visual-studio.png" alt="Visual Studio 2019"/></a>
+  <a href=[https://visualstudio.microsoft.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/2203px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png" alt="Microsoft Teams height="48px" width="48px"/></a>
   <a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" alt="MS Word logo" width="48px"/></a>
   <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint"><img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="MS PowerPoint logo" width="48px" /></a>
   <a href="https://git-scm.com/"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" height="48px" width="48px"/></a>
