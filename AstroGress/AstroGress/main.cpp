@@ -60,7 +60,7 @@ void mainMenu() {
         cout << setw(72) << "=============================" << endl;
         cout << setw(65) << "[1] Start Game" << endl;
         cout << setw(67) << "[2] Instructions" << endl;
-        cout << setw(63) << "[3] Settings" << endl;
+        cout << setw(62) << "[3] Credits" << endl;
         cout << setw(59) << "[4] Quit" << endl;
         cout << setw(71) << "=============================" << endl;
         cout << setw(70) << "Enter your choice [1-4]: ";
@@ -139,10 +139,15 @@ void displayGame() {
         cout << "Player 2 Wins!" << endl;
     }
 }
-
+void displayCredits() {
+    cout << setw(110) << "You can check out our game at: https://github.com/codingburgas/2324-space-sprint-project-astrogress" << endl;
+}
 int main() {
     mainMenu();
-    if (answer == 1) {
-        displayGame();
+    switch (answer) {
+    case 1:
+            displayGame();
+    case 3:
+            displayCredits();
     }
 }
