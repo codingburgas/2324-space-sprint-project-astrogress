@@ -45,7 +45,25 @@ question questions[30] = {
 { "What's the study of the entire universe called?", "Cosmology" }
 };
 
-void mainMenu() {
+void displayOptions() {
+    cout << setw(72) << "=============================" << endl;
+    cout << setw(65) << "[1] Start Game" << endl;
+    cout << setw(67) << "[2] Instructions" << endl;
+    cout << setw(62) << "[3] Credits" << endl;
+    cout << setw(59) << "[4] Quit" << endl;
+    cout << setw(72) << "=============================" << endl;
+    cout << setw(70) << "Enter your choice [1-4]: ";
+
+    cin >> answer;
+    if (answer != 1 && answer != 2 && answer != 3 && answer != 4) {
+        cout << "This is not an avaliable option!" << endl;
+ 
+    }
+    cin.ignore(1, '\n');
+    cout << endl;
+    cout << endl;
+}
+void displayMainMenu() {
         cout << setw(85) << "     _        _              ____                   \n";
         cout << setw(86) << "    / \\   ___| |_ _ __ ___  / ___|_ __ ___  ___ ___  \n";
         cout << setw(86) << "   / _ \\ / __| __| '__/ _ \\| |  _| '__/ _ \\/ __/ __/ \n";
@@ -53,26 +71,13 @@ void mainMenu() {
         cout << setw(86) << " /_/   \\_\\___/\\__|_|  \\___/ \\____|_|  \\___||___/___/ \n";
 
         cout << endl;
-
         cout << setw(72) << "=============================" << endl;
         cout << setw(71) << "        Welcome To         " << endl;
         cout << setw(68) << "        AstroGress      " << endl;
-        cout << setw(72) << "=============================" << endl;
-        cout << setw(65) << "[1] Start Game" << endl;
-        cout << setw(67) << "[2] Instructions" << endl;
-        cout << setw(62) << "[3] Credits" << endl;
-        cout << setw(59) << "[4] Quit" << endl;
-        cout << setw(71) << "=============================" << endl;
-        cout << setw(70) << "Enter your choice [1-4]: ";
+        displayOptions();
 
-        cin >> answer;
-        cout << endl;
-        cout << endl;
 
-        if (answer != 1 && answer != 2 && answer != 3 && answer != 4) {
-            cout << setw(74) << "This is not an available option!" << endl;
-        }
-        cin.ignore(1 , '\n');
+
         cout << endl;
         cout << endl;
 }
@@ -130,24 +135,46 @@ void displayGame() {
     }
     cout << setw(47) << "Player 1's Score: " << playerScores[0] << setw(24) << "Player 2's Score: " << playerScores[1] << endl;
     if (playerScores[0] == playerScores[1]) {
-        cout << "The game is a Draw!" << endl;
+        cout << setw(61) << "The game is a Draw!" << endl;
     }
     else if(playerScores[0] > playerScores[1]) {
-        cout << setw(56) << "Player 1 Wins!" << endl;
+        cout << setw(57) << "Player 1 Wins!" << endl;
     }
     else {
-        cout << "Player 2 Wins!" << endl;
+        cout << setw(57) << "Player 2 Wins!" << endl;
     }
 }
 void displayCredits() {
     cout << setw(110) << "You can check out our game at: https://github.com/codingburgas/2324-space-sprint-project-astrogress" << endl;
+    cout << endl;
+    cout << endl;
+    displayOptions();
+}
+void displayInstructions() {
+    cout << setw(99) << "Our game is made to be played by 2 players. A question appears and each player has" << endl;
+    cout << setw(110) << "to answer. If your answer is correct, you get a point. At the end, the player with the most points win." << endl;
+    cout << endl;
+    cout << endl;
+    displayOptions();
+}
+void pickOptions() {
+    if (answer == 1) {
+        displayGame();
+    }
+    else if (answer == 2) {
+        displayInstructions();
+        pickOptions();
+    }
+    else if (answer == 3) {
+        displayCredits();
+        pickOptions();
+    }
+    else if (answer == 4) {
+        exit(0);
+    }
+
 }
 int main() {
-    mainMenu();
-    switch (answer) {
-    case 1:
-            displayGame();
-    case 3:
-            displayCredits();
-    }
+    displayMainMenu();
+    pickOptions();
 }

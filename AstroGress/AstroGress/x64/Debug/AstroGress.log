@@ -1,3 +1,3 @@
 ﻿  main.cpp
-C:\Users\User\2324-space-sprint-project-astrogress\AstroGress\AstroGress\main.cpp(94,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  AstroGress.vcxproj -> C:\Users\User\2324-space-sprint-project-astrogress\AstroGress\x64\Debug\AstroGress.exe
+D:\2324-space-sprint-project-astrogress\AstroGress\AstroGress\main.cpp(99,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  AstroGress.vcxproj -> D:\2324-space-sprint-project-astrogress\AstroGress\x64\Debug\AstroGress.exe
