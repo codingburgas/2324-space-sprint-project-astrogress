@@ -66,6 +66,12 @@ void mainMenu() {
         cout << setw(70) << "Enter your choice [1-4]: ";
 
         cin >> answer;
+        cout << endl;
+        cout << endl;
+
+        if (answer != 1 && answer != 2 && answer != 3 && answer != 4) {
+            cout << setw(74) << "This is not an available option!" << endl;
+        }
         cin.ignore(1 , '\n');
         cout << endl;
         cout << endl;
@@ -116,7 +122,7 @@ void displayGame() {
             cout << setw(59) << "Only player 2 has guessed correctly! He gets 1 point." << endl;
         }
         else {
-            cout << setw(69) << "None of the player have guessed correctly! No one gets a point." << endl;
+            cout << setw(72) << "None of the player have guessed correctly! The correct answer is: " << randomizedQuestions[i].answer << endl;
         }
         cout << endl;
 
