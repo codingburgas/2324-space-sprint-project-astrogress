@@ -1,6 +1,6 @@
 <h1 align="center">AstroGress</h1>
 <p align="center">
-<img src="AstroGress/Assets/AstroGress-logo.png">
+<img src="Assets/AstroGress_Logo.png" alt="AstroGress Logo" width="500">
 </p>
 
 
@@ -33,6 +33,6 @@ This is our console game about physics and astronomy. Try it now!
 
 | Miroslav Markov |  Backend Developer  | 🟨 9A |
 
-| Iliyan Stanchev| Backend Developer | 🟦 9G |
+| Iliyan Stanchev | Backend Developer | 🟦 9G |
 
 | Milan Nedelchev | Backend Developer  | 🟦 9G |
