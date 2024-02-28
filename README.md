@@ -3,13 +3,18 @@
 <img src="Assets/AstroGress_Logo.png" alt="AstroGress Logo" width="500">
 </p>
 <hr>
-<h2>Documents</h2>
-<a href = "https://codingburgas-my.sharepoint.com/:p:/g/personal/agharakchiyski22_codingburgas_bg/EarN1XLoGPJMqi5GC3WvnPgB6elAYK1LHaQE8nWTzpKZEQ?e=y6CBwo" target = "_blank">Presentation!</a>
+
+##  📁 **Documents**
+
+<a href = "https://codingburgas-my.sharepoint.com/:p:/g/personal/agharakchiyski22_codingburgas_bg/EarN1XLoGPJMqi5GC3WvnPgB6elAYK1LHaQE8nWTzpKZEQ?e=y6CBwo" target = "_blank">Presentation !</a>
+<br>
+<a href = "https://codingburgas-my.sharepoint.com/:w:/g/personal/agharakchiyski22_codingburgas_bg/EVlumYWeuyVIpOIIugD11JgB4gqaxQId-B6rY504EJ1Z5g?e=TdTX2V" target = "_blank">Documentation !</a>
+
 
 
 ## 📋 Description
 
-This is our console game about physics and astronomy. Try it now!
+Step into the cosmos with our captivating console game, where the worlds of physics and astronomy collide! This isn't just a game; it's an interactive journey that encourages players to explore and deepen their knowledge of the cosmos through a gamified experience. Engage with our console game now!  
 
 ## 🚀 Technologies Used
 
